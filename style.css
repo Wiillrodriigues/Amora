@@ -6,7 +6,7 @@
 
 :root {
     --text-color: rgb(34, 34, 34);
-    --bg-url:  url(assets/bgAmora.png);
+    --bg-url:  url(assets/bg-mobile-light.jpg);
     --stroke-color: rgba(8, 8, 8, 0.5);
     --surface-color: rgba(233, 18, 18, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
