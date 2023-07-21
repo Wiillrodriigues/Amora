@@ -5,16 +5,16 @@
 }
 
 :root {
-    --text-color: white;
-    --bg-url:  url(assets/bg-mobile.jpg);
-    --stroke-color: rgba(255, 255, 255, 0.5);
-    --surface-color: rgba(255, 255, 255, 0.05);
+    --text-color: rgb(34, 34, 34);
+    --bg-url:  url(assets/bgAmora.png);
+    --stroke-color: rgba(8, 8, 8, 0.5);
+    --surface-color: rgba(233, 18, 18, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
-    --highlight-color:rgba(255, 255 ,255, 0.2);
-    --switch-bg-url: url(assets/moon-stars.svg);
+    --highlight-color:rgba(7, 7, 7, 0.2);
+   
 }
 
-.light{
+/* .light{
     --text-color: black;
     --bg-url:  url(assets/bg-mobile-light.jpg);
     --stroke-color: rgba(0, 0, 0, 0.5);
@@ -23,12 +23,12 @@
     --highlight-color:rgba(0, 0, 0, 0.1);
     --switch-bg-url: url(assets/sun.svg);
     
-}
+} */
     
 
 
 body  {
-    
+    text-align: center;
     background-image: var(--bg-url);
     background-repeat: no-repeat;
     background-position: top center;
@@ -63,6 +63,14 @@ body *{
     font-weight: 500;
     margin-top: -20px;
 }
+.perfiltop{
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid ; /* Adiciona a borda */
+  padding: 15px 24px; /* Move o padding para o li para que afete a borda */
+  border-radius: 15px; /* Arredonda as bordas */
+}
+
 
 ul {
     list-style: none;
@@ -154,4 +162,5 @@ ul li a:hover {
     left: initial;
 
 }
+
 
