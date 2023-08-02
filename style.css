@@ -52,8 +52,8 @@ body *{
 
 #profile img{
     display: block;
-    width: 230px;
-    margin: auto;
+    width: 300px;
+    margin: -39px;
     height: 230px;
     border-radius: 50%;
     
@@ -66,9 +66,13 @@ body *{
 .perfiltop{
   justify-content: space-between;
   align-items: center;
-  border: 1px solid ; /* Adiciona a borda */
-  padding: 15px 24px; /* Move o padding para o li para que afete a borda */
-  border-radius: 15px; /* Arredonda as bordas */
+  border: 1px solid ;
+  padding: 15px 24px; 
+  border-radius: 15px;
+  text-decoration: none; 
+  border: 1px solid var(--stroke-color);
+  background: var(--surface-color);
+  
 }
 
 
@@ -164,3 +168,33 @@ ul li a:hover {
 }
 
 
+
+/* style.css */
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid var(--stroke-color);
+    background: var(--surface-color);
+}
+  
+  .table th,
+  .table td {
+    border: 1px solid var(--stroke-color);
+    padding: 15px;
+    text-align: center;
+    
+}
+
+.show-button{
+    height: 32px;
+    border-radius: 12px;
+    background: var(--surface-color);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 24px;
+    border: 1px solid var(--stroke-color);
+    text-decoration: none;
+   
+}  

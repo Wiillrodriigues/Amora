@@ -52,3 +52,6 @@ function calcularIdadeCachorro() {
 calcularIdadeCachorro(); // Chama a função inicialmente
 
 setInterval(calcularIdadeCachorro, 1000 * 60 * 60 * 24); // Atualiza a idade do cachorro a cada dia
+
+
+
