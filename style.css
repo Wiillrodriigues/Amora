@@ -6,7 +6,7 @@
 
 :root {
     --text-color: rgb(34, 34, 34);
-    --bg-url:  url(assets/bg-mobile-light.jpg);
+    --bg-url:  url(assets/teste2.png);
     --stroke-color: rgba(8, 8, 8, 0.5);
     --surface-color: rgba(233, 18, 18, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -52,10 +52,10 @@ body *{
 
 #profile img{
     display: block;
-    width: 300px;
-    margin: -39px;
-    height: 230px;
-    border-radius: 50%;
+    width: 250px;
+    margin: -12px;
+    height: 200px;
+    border-radius: 20px;
     
 }
 #profile p{
